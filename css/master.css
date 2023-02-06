@@ -29,6 +29,10 @@
     flex-flow: column wrap;
 }
 
+.flow-row-reverse{
+    flex-flow: row-reverse wrap;
+}
+
 .space-between{
     justify-content: space-between;
 }
@@ -130,8 +134,9 @@ header p{
 
 /* main */
 section{
-    padding: 3rem 4rem;
+    padding: 0 4rem 2rem 4rem;
 }
+
 
 .titleCtaContainer{
     padding: 2rem 8rem 2rem 1rem;
@@ -145,5 +150,25 @@ h2{
 section p{
     color: rgb(97, 93, 93);
     line-height: 1.4rem;
+}
+
+main section:first-child{
+    margin-top: 4rem;
+}
+
+#wave{
+    width: 100%; 
+    
+}
+
+#wave::after{
+    display: block;
+    font-size: 0;
+    content: url('../img/wave.svg');
+    filter: invert(100%) sepia(8%) saturate(1%) hue-rotate(169deg) brightness(115%) contrast(93%);
+}
+
+.wave-rotate{
+    transform: rotate(180deg);
 }
 /* main end */
