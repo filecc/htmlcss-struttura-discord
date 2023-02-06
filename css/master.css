@@ -142,6 +142,7 @@ section{
     padding: 2rem 8rem 2rem 1rem;
     margin: 0 auto;
 }
+
 h2{
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
@@ -170,5 +171,36 @@ main section:first-child{
 
 .wave-rotate{
     transform: rotate(180deg);
+}
+
+.lastSection{
+   text-align: center;
+   max-inline-size: 80%;
+   margin: 0 auto;
+}
+
+.lastSection h2{
+    margin-top: 2rem;
+}
+
+.lastSection p{
+    padding: 1rem 5rem;
+}
+
+h3{
+    padding: 2rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.lastSection a{
+    margin-top: 2rem;
 }
 /* main end */
