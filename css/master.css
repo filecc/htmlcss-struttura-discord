@@ -245,4 +245,29 @@ select {
     max-width: 55%;
 }
 
+footer ul{
+    min-width: 70%;
+    
+}
+
+.titleList span{
+    color: var(--lightviolet);
+    font-weight: bold;
+}
+
+footer ul li{
+    color: #d3d0d0;
+    font-size: .8rem;
+    margin: .8rem 0;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #81879f;
+}
+
+.bottomFooter img{
+    width: 100px;
+}
+
 /* footer end */
