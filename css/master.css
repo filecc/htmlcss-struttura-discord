@@ -41,6 +41,10 @@
     align-items: center;
 }
 
+.bg-grey{
+    background-color: var(--greyish);
+}
+
 ul {
     list-style: none;
 }
@@ -77,6 +81,14 @@ a{
     color: white;
 }
 
+.w-60{
+    max-width: 60%;
+}
+
+.w-40{
+     max-width: 40%;
+}
+
 
 /* header */
 
@@ -102,7 +114,7 @@ header li{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
 }
 
@@ -117,5 +129,21 @@ header p{
 /* header end */
 
 /* main */
+section{
+    padding: 3rem 4rem;
+}
 
+.titleCtaContainer{
+    padding: 2rem 8rem 2rem 1rem;
+    margin: 0 auto;
+}
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+section p{
+    color: rgb(97, 93, 93);
+    line-height: 1.4rem;
+}
 /* main end */
