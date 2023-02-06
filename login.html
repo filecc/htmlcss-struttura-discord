@@ -15,31 +15,38 @@
 </head>
 
 <body>
-   <main class="d-flex">
-    <div class="d-flex container">
-        <div class="w-60">
-            <div class="textContainer">
-                <h1>Eccoti qui!</h1>
-                <p>Siamo così felici di rivederti!</p>
-            </div>
+    <!-- main  -->
+    <main class="d-flex">
+        <div class="d-flex container">
+            <div class="w-60">
+                <!-- text and form -->
+                <div class="textContainer">
+                    <h1>Eccoti qui!</h1>
+                    <p>Siamo così felici di rivederti!</p>
+                </div>
 
-            <form action="/">
-                <label for="email">e-mail o numero di telefono</label>
-                <input type="text">
-                <label for="password">password</label>
-                <input type="password">
-           
-            <a href="/">Hai dimenticato la password?</a>
-            <input class="btn btn-submit" type="submit" value="Accedi">
-            </form>
-            
-            
+                <form action="/">
+                    <label for="email">e-mail o numero di telefono</label>
+                    <input type="text">
+                    <label for="password">password</label>
+                    <input type="password">
+
+                    <a href="/">Hai dimenticato la password?</a>
+                    <input class="btn btn-submit" type="submit" value="Accedi">
+                </form>
+                <!-- /text and form -->
+                <span>Ti serve un account? </span><a href="">Registrati!</a>
+            </div>
+            <!-- qrcode -->
+            <div class="w-40 qrContainer">
+                <img src="./img/qrcode.png" alt="qrcode">
+                <h2>Accedi con codice QR </h2>
+                <p>Scandionalo con l'app mobile di Discord per accedere istantaneamente.</p>
+            </div>
+            <!-- /qrcode -->
         </div>
-        <div class="w-40">
-            QR CODE
-        </div>
-    </div>
-   </main>
+    </main>
+    <!-- /main -->
 </body>
 
 </html>
